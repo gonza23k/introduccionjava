@@ -1,0 +1,12 @@
+info1 =prompt("ingrese su direccion")
+info2 =prompt("ingrese num departamneto")
+info3 =prompt("ingrese su comuna")
+Element1 =document.querySelector(".ubicacion")
+Element2 =document.querySelector(".departamento")
+Element3 =document.querySelector(".comuna")
+Element1.innerHTML= (info1)
+Element2.innerHTML= (info2)
+Element3.innerHTML= (info3)
+var titulo = document.querySelector("h3")
+titulo.style.color = "#7ba238"
+titulo.style.fontFamily = "fantasy" 
