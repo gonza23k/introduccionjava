@@ -50,6 +50,7 @@
                     <img src="assets/img/Cancun.avif" alt="car">
                     <span>Cancún:Ciudad en México</span>
                     <button>Comprar Vuelo</button>
+                    <h3>Precio Base:400.00000</h3>
                     <p>Cantidad:
                         <span class="cantidad"> 0 </span>
                         <button onclick="
@@ -72,94 +73,8 @@
                         ">-</button>
                     </p>
                 </div>
-                <div class="card">
-                    <img src="assets/img/ibiza.avif" alt="car">
-                    <span>Ibiza:España</span>
-                    <button>Comprar Vuelo</button>
-                    <p>Cantidad:
-                        <span class="cantidad"> 0 </span>
-                        <button onclick="
-                        span= document.querySelector('.cantidad')
-                        sumar= Number(span.innerHTML)
-                        span.innerHTML= sumar + 1
-                        total= document.querySelector('.valor-total')
-                        calculo =Number(total.innerHTML)
-                        calculo= precio * span.innerHTML
-                        total.innerHTML=(calculo)
-                        ">+</button>
-                        <button class="restar" onclick="
-                        span= document.querySelector('.cantidad')
-                        restar= Number(span.innerHTML)
-                        span.innerHTML= restar - 1
-                        total= document.querySelector('.valor-total')
-                        calculo =Number(total.innerHTML)
-                        calculo= precio * span.innerHTML
-                        total.innerHTML=(calculo)
-                        ">-</button>
-                    </p>
+
                 </div>
-                <div class="card">
-                    <img src="assets/img/suiza.avif" alt="car">
-                    <span>Zurich:Suiza</span>
-                    <button>Comprar Vuelo</button>
-                    <p>Cantidad:
-                        <span class="cantidad"> 0 </span>
-                        <button onclick="
-                        span= document.querySelector('.cantidad')
-                        sumar= Number(span.innerHTML)
-                        span.innerHTML= sumar + 1
-                        total= document.querySelector('.valor-total')
-                        calculo =Number(total.innerHTML)
-                        calculo= precio * span.innerHTML
-                        total.innerHTML=(calculo)
-                        ">+</button>
-                        <button class="restar" onclick="
-                        span= document.querySelector('.cantidad')
-                        restar= Number(span.innerHTML)
-                        span.innerHTML= restar - 1
-                        total= document.querySelector('.valor-total')
-                        calculo =Number(total.innerHTML)
-                        calculo= precio * span.innerHTML
-                        total.innerHTML=(calculo)
-                        ">-</button>
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="assets/img/argentina.avif" alt="car">
-                    <span>Buenos Aires:Argentina</span>
-                    <button>Comprar Vuelo</button>
-                    <p>Cantidad:
-                        <span class="cantidad"> 0 </span>
-                        <button onclick="
-                        span= document.querySelector('.cantidad')
-                        sumar= Number(span.innerHTML)
-                        span.innerHTML= sumar + 1
-                        total= document.querySelector('.valor-total')
-                        calculo =Number(total.innerHTML)
-                        calculo= precio * span.innerHTML
-                        total.innerHTML=(calculo)
-                        ">+</button>
-                        <button class="restar" onclick="
-                        span= document.querySelector('.cantidad')
-                        restar= Number(span.innerHTML)
-                        span.innerHTML= restar - 1
-                        total= document.querySelector('.valor-total')
-                        calculo =Number(total.innerHTML)
-                        calculo= precio * span.innerHTML
-                        total.innerHTML=(calculo)
-                        ">-</button>
-                    </p>
-                </div>
-        
-            </section>
-                </div>
-            </div>
-            <div class="navigation">
-                <button><<</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>>></button>
             </div>
         </main>
         <footer class="foot-section">
